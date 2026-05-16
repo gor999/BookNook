@@ -1,30 +1,39 @@
 FROM php:8.2-fpm
 
-# Տեղադրում ենք անհրաժեշտ համակարգային փաթեթները
+# Տեղադրում ենք համակարգային փաթեթները և անհրաժեշտ գրադարանները (ներառյալ zip, bz2, թեթև zip-երի համար)
 RUN apt-get update && apt-get install -y \
     git \
     curl \
     libpng-dev \
     libonig-dev \
     libxml2-dev \
+    libzip-dev \
     zip \
     unzip \
     nginx
 
+# Մաքրում ենք քեշը
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
-RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd
+# Տեղադրում ենք PHP ընդլայնումները (ավելացված է zip-ը, որը Composer-ին շատ է պետք)
+RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip
 
+# Տեղադրում ենք Composer-ը
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
+# Սահմանում ենք աշխատանքային թղթապանակը
 WORKDIR /var/www
 
+# Պատճենում ենք նախագծի ֆայլերը
 COPY . /var/www
 
-RUN composer install --no-dev --optimize-autoloader
+# Տեղադրում ենք կախվածությունները՝ անտեսելով հարթակի սահմանափակումները (--ignore-platform-reqs)
+RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 
+# Իրավունքները տալիս ենք Laravel-ին
 RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache
 
+# Nginx-ի կարգավորում
 RUN echo "server { \n\
     listen 80; \n\
     index index.php index.html; \n\
