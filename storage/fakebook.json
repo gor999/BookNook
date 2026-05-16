@@ -1,0 +1,2060 @@
+[
+    {
+        "title": "Превращение",
+        "author": "Ֆրանց Կաֆկա",
+        "price": "4500 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Волшебная гора",
+        "author": "Թոմաս Ման",
+        "price": "7300 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Կաֆկա․ Նամակներ",
+        "author": "Ֆրանց Կաֆկա",
+        "price": "5990 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "David Copperfield",
+        "author": "Չարլզ Դիքենս",
+        "price": "8300 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Theatre",
+        "author": "Սոմերսեթ Մոհամ",
+        "price": "5700 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Իլիական",
+        "author": "Հոմերոս",
+        "price": "7900 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "The Invisible Man",
+        "author": "Հ.Գ. Ուելս",
+        "price": "6100 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Сочинения",
+        "author": "Ռոբերտ Վալզեր",
+        "price": "5800 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "The Three Musketeers",
+        "author": "Ալեքսանդր Դյումա",
+        "price": "7200 դրամ",
+        "genre": "Արկածային",
+        "genre_id": 6
+    },
+    {
+        "title": "Կորուսյալ ժամանակը որոնելիս: Դեպի Սվանը",
+        "author": "Մարսել Պրուստ",
+        "price": "6990 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Աշխարհների պատերազմը",
+        "author": "Հերբերտ Ուելս",
+        "price": "3900 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Վարպետը և Մարգարիտան․ նոր",
+        "author": "Միխայիլ Բուլգակով",
+        "price": "5990 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Մահվան ընդհատումներ",
+        "author": "Ժոզե Սարամագու",
+        "price": "3900 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Մարդն առանց հատկությունների 4",
+        "author": "Ռոբերտ Մուզիլ",
+        "price": "6490 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "The Old Man and the Sea",
+        "author": "Էռնեստ Հեմինգվեյ",
+        "price": "5400 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Դրսում մեր անուններն ուրիշ են",
+        "author": "Լաուրա Ցվիրտինա",
+        "price": "5000 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Three Men In A Boat",
+        "author": "Ջ. Կ. Ջերոմ",
+        "price": "6100 դրամ",
+        "genre": "Արկածային",
+        "genre_id": 6
+    },
+    {
+        "title": "The Masque of the Red Death",
+        "author": "Էդգար Ալան Պո",
+        "price": "5800 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Mrs Dalloway",
+        "author": "Վիրջինիա Վուլֆ",
+        "price": "6300 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Die Nacht von Lissabon",
+        "author": "Էրիխ Մարիա Ռեմարկ",
+        "price": "9800 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Խաղաղ ամերիկացին",
+        "author": "Գրեհեմ Գրին",
+        "price": "3990 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Լորդ Էջուերը մահանում է",
+        "author": "Ագաթա Քրիստի",
+        "price": "3900 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Կյուրոպեդիա",
+        "author": "Քսենոփոն",
+        "price": "4400 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Tales Of Mystery And Imagination",
+        "author": "Էդգար Ալան Պո",
+        "price": "6300 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Սամարղանդ տանող էշելոնը",
+        "author": "Գուզել Յախինա",
+        "price": "6800 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Герой нашего времени",
+        "author": "Միխայիլ Լերմոնտով",
+        "price": "2500 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Պենելոպեական",
+        "author": "Մարգրեթ Աթվուդ",
+        "price": "3990 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Золотой жук",
+        "author": "Էդգար Ալան Պո",
+        "price": "4700 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Ամերիկահայ անգլիագիր բանաստեղծներ",
+        "price": "3400 դրամ",
+        "genre": "Դրամա",
+        "author": "Անհայտ",
+        "genre_id": 4
+    },
+    {
+        "title": "A Moveable Feast",
+        "author": "Էռնեստ Հեմինգվեյ",
+        "price": "5200 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Բրիտանական պատմություններ",
+        "author": "Ջերոմ Ջերոմ",
+        "price": "5000 դրամ",
+        "genre": "Արկածային",
+        "genre_id": 6
+    },
+    {
+        "title": "Heart Of Darkness",
+        "author": "Ջոզեֆ Քոնրադ",
+        "price": "6200 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "After the Feast - A Dance With Dragons",
+        "author": "Ջորջ Ռ. Ռ. Մարտին",
+        "price": "6400 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Hell Screen",
+        "author": "Ռյունոսուկե Ակուտագավա",
+        "price": "6400 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "The Call Of The Wild & White Fang",
+        "author": "Ջեք Լոնդոն",
+        "price": "6300 դրամ",
+        "genre": "Արկածային",
+        "genre_id": 6
+    },
+    {
+        "title": "Dr Jekyll and Mr Hyde",
+        "author": "Ռոբերտ Լյուիս Սթիվենսոն",
+        "price": "4800 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "The Woman In White",
+        "author": "Ուիլկի Քոլինզ",
+        "price": "7700 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Письмо незнакомки",
+        "author": "Ստեֆան Ցվայգ",
+        "price": "3500 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "La Vita Nuova",
+        "author": "Դանթե Ալիգիերի",
+        "price": "6100 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Բացելով խաղաքարտերը",
+        "author": "Ագաթա Քրիստի",
+        "price": "3900 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Childhood Youth Dependency",
+        "author": "Թովե Իրմա Մարգիտ Դիտլեվսեն",
+        "price": "6400 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Հիպերիոն",
+        "author": "Ֆրիդրիխ Հյոլդերլին",
+        "price": "4490 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Dracula",
+        "author": "Բրեմ Սթոկեր",
+        "price": "5500 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "The Awakening",
+        "author": "Քեյթ Շոպեն",
+        "price": "5900 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Geschichte eines Deutschen",
+        "author": "Սեբաստիան Հաֆներ",
+        "price": "14100 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "For Whom the Bell Tolls",
+        "author": "Էռնեստ Հեմինգվեյ",
+        "price": "6200 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "ЖАРА НՈՉЬ ГОРОД",
+        "author": "Թրևանյան",
+        "price": "3990 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Emma. Level 4",
+        "author": "Ջեյն Օսթին",
+        "price": "3400 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Վարագույր. Պուարոյի վերջին գործը",
+        "author": "Ագաթա Քրիստի",
+        "price": "3900 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "The Black Lizard",
+        "author": "Ռանպո Էդոգավա",
+        "price": "5600 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "The Old Man and the Sea (II)",
+        "author": "Էռնեստ Հեմինգվեյ",
+        "price": "4900 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Դյուն",
+        "author": "Ֆրենք Հերբերթ",
+        "price": "7300 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Սուրբ ծննդյան պատմություններ",
+        "price": "5000 դրամ",
+        "genre": "Դրամա",
+        "author": "Անհայտ",
+        "genre_id": 4
+    },
+    {
+        "title": "Buddenbrooks",
+        "author": "Թոմաս Ման",
+        "price": "15900 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Ալեքսանդր Վոլֆի Ուրվականը",
+        "author": "Գայտո Գազդանով",
+        "price": "3480 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Նովելներ. Սև շալը, Առաջին գիշերը, Մատուռը, Ծուխը",
+        "author": "Լուիջի Պիրանդելլո",
+        "price": "2500 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Jane Eyre",
+        "author": "Շառլոթ Բրոնտե",
+        "price": "6700 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Oroonoko The Rover And Other Works",
+        "author": "Աֆրա Բեն",
+        "price": "6400 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "The Fall",
+        "author": "Ալբեր Կամյու",
+        "price": "7200 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Խումարան",
+        "author": "Էմիլ Զոլա",
+        "price": "4900 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Մարդն առանց հատկությունների 3",
+        "author": "Ռոբերտ Մուզիլ",
+        "price": "6490 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Strangeness In My Mind",
+        "author": "Օրհան Փամուք",
+        "price": "7900 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Անմեղը",
+        "author": "Գաբրիելե Դ'Աննունցիո",
+        "price": "4990 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "The Picture Of Dorian Gray",
+        "author": "Օսկար Ուայլդ",
+        "price": "6300 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Զատիկը",
+        "author": "Դեյվիդ Հերբերթ Լոուրենս",
+        "price": "3000 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Notes From Underground",
+        "author": "Ֆյոդոր Դոստոևսկի",
+        "price": "5600 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "The Age Of Innocence",
+        "author": "Էդիթ Ուորթոն",
+        "price": "6300 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Maigrets Revolver",
+        "author": "Ժորժ Սիմենոն",
+        "price": "5600 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Ինքնագիր #10",
+        "price": "3800 դրամ",
+        "genre": "Դրամա",
+        "author": "Անհայտ",
+        "genre_id": 4
+    },
+    {
+        "title": "Best Short Stories",
+        "author": "Սոմերսեթ Մոհամ",
+        "price": "6400 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Սուֆլե",
+        "author": "Ասլը Փերքեր",
+        "price": "6100 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Житейские воззрения кота Мурра",
+        "author": "Էռնստ Հոֆման",
+        "price": "2600 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Ghost Stories",
+        "author": "Չարլզ Դիքենս",
+        "price": "6300 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "The Berenger Plays",
+        "author": "Էուջեն Յոնեսկո",
+        "price": "9900 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Portrait Of A Lady",
+        "author": "Հենրի Ջեյմս",
+        "price": "7700 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Ուլյոա տոհմական ամրոցը",
+        "author": "Էմիլիա Պարդո Բասան",
+        "price": "4990 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Nineteen Eighty-Four. Level 7",
+        "author": "Ջորջ Օրուել",
+        "price": "3500 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Հավաքորդը",
+        "author": "Ջոն Ֆաուլզ",
+        "price": "5990 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Emma",
+        "author": "Ջեյն Օսթին",
+        "price": "6600 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Մոռացված նախնիների ստվերները",
+        "author": "Միխայլո Կոցյուբինսկի",
+        "price": "3990 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "The Outsider",
+        "author": "Ալբեր Կամյու",
+        "price": "4900 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Ճարպիկ Մարթինը",
+        "author": "Վիլյամ Գոլդինգ",
+        "price": "3990 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Breakfast at Tiffany's․ Level 4",
+        "author": "Թրումեն Կապոտե",
+        "price": "3400 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Կղզու արդարացումը",
+        "author": "Եվգենի Վոդոլազկին",
+        "price": "5000 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Siddhartha",
+        "author": "Հերման Հեսսե",
+        "price": "6300 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Ангелы опустошения",
+        "author": "Ջեք Քերուեք",
+        "price": "3600 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "White Noise",
+        "author": "Դոն Դելիլո",
+        "price": "5900 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "The Warden",
+        "author": "Էնթոնի Թրոլոփ",
+        "price": "5700 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Robinson Crusoe",
+        "author": "Դանիել Դեֆո",
+        "price": "6300 դրամ",
+        "genre": "Արկածային",
+        "genre_id": 6
+    },
+    {
+        "title": "Փարիզի աստվածամոր տաճարը 2022",
+        "author": "Վիկտոր Հյուգո",
+        "price": "5990 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "English classics. The Prince and the Pauper",
+        "author": "Մարկ Տվեն",
+        "price": "2900 դրամ",
+        "genre": "Արկածային",
+        "genre_id": 6
+    },
+    {
+        "title": "Гордость и предубеждение",
+        "author": "Ջեյն Օսթին",
+        "price": "5500 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Սեփական սենյակը",
+        "author": "Վիրջինիա Վուլֆ",
+        "price": "2000 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Persuasion",
+        "author": "Ջեյն Օսթին",
+        "price": "6300 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Ոդիսական",
+        "author": "Հոմերոս",
+        "price": "7900 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Orlando",
+        "author": "Վիրջինիա Վուլֆ",
+        "price": "6300 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Վլադիմիր Վիսոցկի․ հուշարձան",
+        "author": "Վլադիմիր Վիսոցկի",
+        "price": "5000 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Թագավոր-թագավոր խաղա՞նք",
+        "author": "Սինքլեր Լյուիս",
+        "price": "5000 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Anne Of Green Gables",
+        "author": "Լ. Մ. Մոնտգոմերի",
+        "price": "5800 դրամ",
+        "genre": "Արկածային",
+        "genre_id": 6
+    },
+    {
+        "title": "Тени в раю",
+        "author": "Էրիխ Մարիա Ռեմարկ",
+        "price": "3900 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "The Queen Of Spades",
+        "author": "Ալեքսանդր Պուշկին",
+        "price": "6600 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Անուրջների օթևանը",
+        "author": "Էրիխ Մարիա Ռեմարկ",
+        "price": "4900 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Mansfield Park",
+        "author": "Ջեյն Օսթին",
+        "price": "6500 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "The Age Of Innocence (II)",
+        "author": "Էդիթ Ուորթոն",
+        "price": "5900 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Sombrero Fallout (Canons)",
+        "author": "Ռիչարդ Բրոտիգան",
+        "price": "6200 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Fight Club",
+        "author": "Չաք Պալանիկ",
+        "price": "5800 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Мечтатели",
+        "author": "Ռոբերտ Մուզիլ",
+        "price": "4900 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Nobody'S Fool",
+        "author": "Ռիչարդ Ռուսո",
+        "price": "7200 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Крестный отец",
+        "author": "Մարիո Պյուզո",
+        "price": "2500 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Metamorphosis",
+        "author": "Ֆրանց Կաֆկա",
+        "price": "7200 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Карибская тайна",
+        "author": "Ագաթա Քրիստի",
+        "price": "2900 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "A Portrait Of The Artist As A Young",
+        "author": "Ջեյմս Ջոյս",
+        "price": "6200 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Эликсиры сатаны",
+        "author": "Էռնստ Հոֆման",
+        "price": "1900 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "The Silent Cry",
+        "author": "Կենզաբուրո ՕԵ",
+        "price": "7100 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Չարքապատում",
+        "author": "Միխայիլ Բուլգակով",
+        "price": "3000 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Маркитантка Кураж и ее дети",
+        "author": "Բերտոլդ Բրեխտ",
+        "price": "Անհայտ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "The Phantom of the Opera. Level 1",
+        "author": "Գաստոն Լերու",
+        "price": "3400 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Սիրելի բարեկամ",
+        "author": "Գի դը Մոպասան",
+        "price": "5990 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Collected Stories",
+        "author": "Վլադիմիր Նաբոկով",
+        "price": "9800 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "ԱԼ տառը",
+        "author": "Նաթանիել Հոթորն",
+        "price": "3990 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Голливуд",
+        "author": "Չարլզ Բուկովսկի",
+        "price": "4500 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "A Clash of Kings",
+        "author": "Ջորջ Ռ. Ռ. Մարտին",
+        "price": "6400 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Միլորոդ Պավիչ. Աստղային պատմուճան",
+        "author": "Միլոռադ Պավիչ",
+        "price": "1100 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Սպիտակ գիշերներ",
+        "author": "Ֆյոդոր Դոստոևսկի",
+        "price": "2000 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "The Ballad Of The Sad Cafe",
+        "author": "Քարսոն Մաքքալերս",
+        "price": "6300 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Arc de Triomphe",
+        "author": "Էրիխ Մարիա Ռեմարկ",
+        "price": "12500 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Penguin Readers Level 1: The Little Prince",
+        "author": "Անտուան դը Սենտ-Էքզյուպերի",
+        "price": "3400 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Ճակատագրի ձվերը",
+        "author": "Միխայիլ Բուլգակով",
+        "price": "3000 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Walden",
+        "author": "Հենրի Դեյվիդ Թորո",
+        "price": "6200 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Սիրիր մերձավորիդ",
+        "author": "Էրիխ Մարիա Ռեմարկ",
+        "price": "5000 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Chances Are",
+        "author": "Ռիչարդ Ռուսո",
+        "price": "6400 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Калигула",
+        "author": "Ալբեր Կամյու",
+        "price": "2900 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Cosmicomics",
+        "author": "Իտալո Կալվինո",
+        "price": "5800 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "A Clockwork Orange",
+        "author": "Էնթոնի Բյորջիս",
+        "price": "12900 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Tender Is The Night",
+        "author": "Ֆրենսիս Սքոթ Ֆիցջերալդ",
+        "price": "6300 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Doktor Faustus",
+        "author": "Թոմաս Ման",
+        "price": "16300 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Ջեննի Գերհարդ",
+        "author": "Թեոդոր Դրայզեր",
+        "price": "5000 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Moby-Dick",
+        "author": "Հերման Մելվիլ",
+        "price": "7700 դրամ",
+        "genre": "Արկածային",
+        "genre_id": 6
+    },
+    {
+        "title": "Двадцать лет спустя",
+        "author": "Ալեքսանդր Դյումա",
+        "price": "10200 դրամ",
+        "genre": "Արկածային",
+        "genre_id": 6
+    },
+    {
+        "title": "Графиня де Монсоро",
+        "author": "Ալեքսանդր Դյումա",
+        "price": "10600 դրամ",
+        "genre": "Արկածային",
+        "genre_id": 6
+    },
+    {
+        "title": "Հանդիպում մահվան հետ",
+        "author": "Ագաթա Քրիստի",
+        "price": "3900 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Պատմվածքներ փիլիսոփաների մասին",
+        "author": "Անատոլի Դոմբրովսկի",
+        "price": "3800 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Скотный двор. Повесть-притча",
+        "author": "Ջորջ Օրուել",
+        "price": "13100 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Արևամուտի ներքո",
+        "author": "Բրամ Սթոքեր",
+        "price": "3900 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Սիրային աֆորիզմներ",
+        "price": "4400 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "author": "Անհայտ",
+        "genre_id": 2
+    },
+    {
+        "title": "Зло под солнцем",
+        "author": "Ագաթա Քրիստի",
+        "price": "2900 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Վերնասրահի զավակները",
+        "author": "Ժակ Պրեվեր",
+        "price": "3990 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "The Posthumous Memoirs of Bras Cubas",
+        "author": "Մաշադու դե Ասիս",
+        "price": "8400 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "The Inseparables",
+        "author": "Սիմոնա դը Բովուար",
+        "price": "5600 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "The Trial",
+        "author": "Ֆրանց Կաֆկա",
+        "price": "6300 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Орландо",
+        "author": "Վիրջինիա Վուլֆ",
+        "price": "1800 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Persuasion (II)",
+        "author": "Ջեյն Օսթին",
+        "price": "5200 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Mysteries",
+        "author": "Քնուտ Համսուն",
+        "price": "7700 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Пармская обитель",
+        "author": "Ստենդալ",
+        "price": "2200 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Սիրո և այլ դևերի մասին",
+        "author": "Գաբրիել Գարսիա Մարկես",
+        "price": "3990 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "The Human Comedy",
+        "author": "Ուիլյամ Սարոյան",
+        "price": "4400 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Школьные сочинения Фритца Кохера",
+        "author": "Ռոբերտ Վալզեր",
+        "price": "4900 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Օջախի արու զավակը",
+        "author": "Չելուչի Օնյեմելուկվե",
+        "price": "4990 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Нерадивый ученик",
+        "author": "Թոմաս Պինչոն",
+        "price": "4400 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Տարեկանով լի գրպան",
+        "author": "Ագաթա Քրիստի",
+        "price": "3900 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "The Moonstone",
+        "author": "Ուիլկի Քոլինզ",
+        "price": "7200 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Հեռավորն ու մոտիկը",
+        "author": "Թումաս Վուլֆ",
+        "price": "4900 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Madame Bovary",
+        "author": "Գուստավ Ֆլոբերթ",
+        "price": "6900 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Письма к Вере",
+        "author": "Վլադիմիր Նաբոկով",
+        "price": "9500 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Լուսնաքարը",
+        "author": "Ուիլքի Քոլինզ",
+        "price": "5990 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Nineteen Eighty-Four (III)",
+        "author": "Ջորջ Օրուել",
+        "price": "6300 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Կյանքի կայծը",
+        "author": "Էրիխ Մարիա Ռեմարկ",
+        "price": "5500 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "The Pickwick Papers",
+        "author": "Չարլզ Դիքենս",
+        "price": "8200 դրամ",
+        "genre": "Արկածային",
+        "genre_id": 6
+    },
+    {
+        "title": "Ընձառյուծը",
+        "author": "Ջուզեպպե Տոմազի Դի Լամպեդուզա",
+        "price": "5990 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Mansfield Park (III)",
+        "author": "Ջեյն Օսթին",
+        "price": "5100 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Վիպակներ և պատմվածքներ․ Լեսկով",
+        "author": "Նիկոլայ Լեսկով",
+        "price": "3500 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Хельдерлин",
+        "author": "Պետեր Վայս",
+        "price": "5200 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Dracula (III)",
+        "author": "Բրեմ Սթոկեր",
+        "price": "6500 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Լատվիացի Պետերը",
+        "author": "Ժորժ Սիմենոն",
+        "price": "3300 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Американская трагедия (комплект из 2-х книг)",
+        "author": "Թեոդոր Դրայզեր",
+        "price": "7900 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Penguin Readers Level 4: Jane Eyre",
+        "author": "Շառլոթ Բրոնտե",
+        "price": "3400 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Լուռ վկան",
+        "author": "Ագաթա Քրիստի",
+        "price": "3900 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Գեներալն իր լաբիրինթոսում",
+        "author": "Գաբրիել Գարսիա Մարկես",
+        "price": "5990 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "1984․ Оруэлл",
+        "author": "Ջորջ Օրուել",
+        "price": "2600 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Игра в бисер",
+        "author": "Հերման Հեսսե",
+        "price": "4200 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Silent House",
+        "author": "Օրհան Փամուք",
+        "price": "7300 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Lady Chatterley’S Lover",
+        "author": "Դեյվիդ Հերբերթ Լոուրենս",
+        "price": "6300 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Կարամազով եղբայրներ",
+        "author": "Ֆյոդոր Դոստոևսկի",
+        "price": "6990 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "My Name Is Red",
+        "author": "Օրհան Փամուք",
+        "price": "7900 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Կարիբյան գաղտնիք",
+        "author": "Ագաթա Քրիստի",
+        "price": "3900 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "A Farewell To Arms",
+        "author": "Էռնեստ Հեմինգվեյ",
+        "price": "6200 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "The Yellow Wallpaper",
+        "author": "Շարլոտ Պերկինս Գիլման",
+        "price": "6100 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Մոլեգին հողմերի դարավանդը",
+        "author": "Էմիլի Բրոնթե",
+        "price": "5490 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Միջնաբերդ",
+        "author": "Անտուան դը Սենտ-Էքզյուպերի",
+        "price": "5900 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Убийство на поле для гольфа",
+        "author": "Ագաթա Քրիստի",
+        "price": "2800 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Don Quixote",
+        "author": "Միգել դե Սերվանտես",
+        "price": "8900 դրամ",
+        "genre": "Արկածային",
+        "genre_id": 6
+    },
+    {
+        "title": "Crime And Punishment",
+        "author": "Ֆյոդոր Դոստոևսկի",
+        "price": "7700 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Взгляни на дом свой, ангел",
+        "author": "Թոմաս Վուլֆ",
+        "price": "3700 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Animal Farm. Level 3",
+        "author": "Ջորջ Օրուել",
+        "price": "3400 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "The Prophet",
+        "author": "Խալիլ Ջիբրան",
+        "price": "6300 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Breakfast At Tiffanys (III)",
+        "author": "Թրումեն Կապոտե",
+        "price": "5400 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Museum Of Innocence",
+        "author": "Օրհան Փամուք",
+        "price": "8500 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Շագանակագույն կոստյումով մարդը",
+        "author": "Ագաթա Քրիստի",
+        "price": "3900 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Դոն Ժուան",
+        "author": "Պետեր Հանդքե",
+        "price": "2990 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Նյութեղեն կյանքը",
+        "author": "Մարգրիտ Դյուրաս",
+        "price": "4000 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Միհարկանի Ամերիկան",
+        "author": "Իլյա Իլֆ, Եվգենի Պետրով",
+        "price": "4900 դրամ",
+        "genre": "Արկածային",
+        "genre_id": 6
+    },
+    {
+        "title": "Պատվիրակը",
+        "author": "Յոկո Տավադա",
+        "price": "3500 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Дженни Герхардт (II)",
+        "author": "Թեոդոր Դրայզեր",
+        "price": "2700 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "The Beautiful And Damned",
+        "author": "Ֆրենսիս Սքոթ Ֆիցջերալդ",
+        "price": "6900 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Մոնթեսումայի դուստրը",
+        "author": "Հենրի Ռայդեր Հագարդ",
+        "price": "5000 դրամ",
+        "genre": "Արկածային",
+        "genre_id": 6
+    },
+    {
+        "title": "Արտ Գրականություն 3/22",
+        "author": "Անրի Թրուայա",
+        "price": "2000 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Սյուզան, Օրիորդ Կլիֆտոն",
+        "author": "Հեկտոր Մալո",
+        "price": "4900 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Ոսկե տաճարը",
+        "author": "Յուկիո Միշիմա",
+        "price": "5990 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Snow",
+        "author": "Օրհան Փամուք",
+        "price": "7900 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Death on Credit",
+        "author": "Լուի-Ֆերդինանդ Սելին",
+        "price": "9100 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Վեց խնդիր դոն Իսիդրո Պարոդիի համար",
+        "author": "Խորխե Լուիս Բորխես, Ադոլֆո Բիոյ Կասարես",
+        "price": "4900 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Լավ Ստալին",
+        "author": "Վիկտոր Երոֆեեվ",
+        "price": "1800 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Աշխարհի պատմությունը 10½ գլուխներով",
+        "author": "Ջուլիան Բարնս",
+        "price": "5990 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Белая гвардия",
+        "author": "Միխայիլ Բուլգակով",
+        "price": "2400 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Քոռ բու",
+        "author": "Սադեղ Հեդայաթ",
+        "price": "3000 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Dreams and Dust - A Dance With Dragons",
+        "author": "Ջորջ Ռ. Ռ. Մարտին",
+        "price": "6400 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Չինական առակներ",
+        "price": "3400 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "author": "Անհայտ",
+        "genre_id": 2
+    },
+    {
+        "title": "The Nightingale",
+        "author": "Քրիստին Հաննա",
+        "price": "6100 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Պարսից գրականություն IX-XX դդ (9-20դդ)",
+        "author": "Զորայր Միրզայան",
+        "price": "3500 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Just So Stories",
+        "author": "Ռադյարդ Քիպլինգ",
+        "price": "8400 դրամ",
+        "genre": "Արկածային",
+        "genre_id": 6
+    },
+    {
+        "title": "Great Expectations",
+        "author": "Չարլզ Դիքենս",
+        "price": "7200 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "A Room Of One’S Own",
+        "author": "Վիրջինիա Վուլֆ",
+        "price": "6300 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Sense and Sensibility․ Level 5",
+        "author": "Ջեյն Օսթին",
+        "price": "3400 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Օսկարը և վարդագույն տիկինը",
+        "author": "Էրիկ Էմանուել Շմիտ",
+        "price": "4900 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Страдания юного Вертера",
+        "author": "Յոհան Վոլֆգանգ Գյոթե",
+        "price": "2300 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Ներքին հեռու",
+        "author": "Անրի Միշո",
+        "price": "3490 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Արևմուտքի վախճանը",
+        "author": "Փեթրիք Բյուքենեն",
+        "price": "6900 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Sleeping Dog",
+        "author": "Դիկ Լոխտե",
+        "price": "5800 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Im Westen nichts Neues",
+        "author": "Էրիխ Մարիա Ռեմարկ",
+        "price": "8300 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "В арбузном сахаре. Рыбалка в Америке",
+        "author": "Ռիչարդ Բրոթիգան",
+        "price": "2200 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Ամոնտիլյադոյի տակառը",
+        "author": "Էդգար Ալան Պո",
+        "price": "3990 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Breakfast At Tiffanys (IV)",
+        "author": "Թրումեն Կապոտե",
+        "price": "7200 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Дни Турбиных",
+        "author": "Միխայիլ Բուլգակով",
+        "price": "2200 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Ալ տառը (II)",
+        "author": "Նաթանիել Հոթորն",
+        "price": "4990 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Sanditon, Lady Susan, & The History",
+        "author": "Ջեյն Օսթին",
+        "price": "6400 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Vita activa oder Vom tätigen Leben",
+        "author": "Հաննա Արենթ",
+        "price": "11500 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Պասկուալ Դուարտեի ընտանիքը",
+        "author": "Կամիլո Խոսե Սելա",
+        "price": "3990 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Sense And Sensibility (II)",
+        "author": "Ջեյն Օսթին",
+        "price": "6300 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Ռուսական չարի ծաղիկները",
+        "author": "Վիկտոր Երոֆեեվ, Վլադիմիր Սորոկին",
+        "price": "1100 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Letters To Milena",
+        "author": "Ֆրանց Կաֆկա",
+        "price": "5700 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Trout Fishing In America (Canons)",
+        "author": "Ռիչարդ Բրոտիգան",
+        "price": "6700 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Կապիտան Միխալիս",
+        "author": "Նիկոս Կազանձակիս",
+        "price": "6990 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "The Picture of Dorian Gray․ Level 3",
+        "author": "Օսկար Ուայլդ",
+        "price": "3400 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Աբել Սանչես",
+        "author": "Միգել դե Ունամունո",
+        "price": "3490 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "A Room Of Ones Own (II)",
+        "author": "Վիրջինիա Վուլֆ",
+        "price": "7200 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Little Women",
+        "author": "Լուիզա Մեյ Ալքոթ",
+        "price": "6600 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Ֆինանսիստը",
+        "author": "Թեոդոր Դրայզեր",
+        "price": "5900 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Անմահություն",
+        "author": "Միլան Կունդերա",
+        "price": "5990 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Բուդենբրոոկներ․ մի ընտանիքի անկումը",
+        "author": "Թոմաս Ման",
+        "price": "6990 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Բերթրամ հյուրանոցում",
+        "author": "Ագաթա Քրիստի",
+        "price": "3900 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Animal Farm (II)",
+        "author": "Ջորջ Օրուել",
+        "price": "6100 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Моя жизнь. Мои достижения",
+        "author": "Հենրի Ֆորդ",
+        "price": "1900 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Լքում",
+        "author": "Աբդուլրազակ Գուրնա",
+        "price": "5990 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "The Fall of the House of Usher and Other Stories",
+        "author": "Էդգար Ալան Պո",
+        "price": "5900 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Սանին",
+        "author": "Միխայիլ Արցիբաշև",
+        "price": "4600 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Властелин колец",
+        "author": "Ջոն Ռ․ Ռ․ Թոլքին",
+        "price": "15100 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Collected Short Stories Volume 2",
+        "author": "Սոմերսեթ Մոհամ",
+        "price": "7300 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "English classics. The Wind in the Willows",
+        "author": "Քենեթ Գրահեմ",
+        "price": "2500 դրամ",
+        "genre": "Արկածային",
+        "genre_id": 6
+    },
+    {
+        "title": "Down And Out In Paris And London",
+        "author": "Ջորջ Օրուել",
+        "price": "6100 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Ինքնագիր 11",
+        "author": "Անհայտ",
+        "price": "4000 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "The Old Man and the Sea",
+        "author": "Էռնեստ Հեմինգվեյ",
+        "price": "5700 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "The Shadow Over Innsmouth",
+        "author": "Հովարդ Ֆիլիպս Լավքրաֆտ",
+        "price": "6100 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "Կերպարանափոխություն․ Կաֆկա",
+        "author": "Ֆրանց Կաֆկա",
+        "price": "3000 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "To The Lighthouse",
+        "author": "Վիրջինիա Վուլֆ",
+        "price": "6300 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Նիգերիական բուրգեր",
+        "author": "Չելուչի Օնյեմելուկվե",
+        "price": "4990 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Մեծ Գեթսբին․ Ֆիցջերալդ",
+        "author": "Ֆրենսիս Սքոթ Ֆիցջերալդ",
+        "price": "3990 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "A Life For A Life",
+        "author": "Դինա Սանեչար",
+        "price": "6400 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Northanger Abbey",
+        "author": "Ջեյն Օսթին",
+        "price": "6600 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "One Hundred Years Of Solitude",
+        "author": "Գաբրիել Գարսիա Մարկես",
+        "price": "7900 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "The Call of Cthulhu and Other Weird Stories",
+        "author": "Հովարդ Ֆիլիպս Լավքրաֆտ",
+        "price": "6900 դրամ",
+        "genre": "Դետեկտիվ",
+        "genre_id": 7
+    },
+    {
+        "title": "The Aleph and Other Stories",
+        "author": "Խորխե Լուիս Բորխես",
+        "price": "6800 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "The Great Gatsby",
+        "author": "Ֆրենսիս Սքոթ Ֆիցջերալդ",
+        "price": "6300 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "1984",
+        "author": "Ջորջ Օրուել",
+        "price": "5990 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Collected Fictions",
+        "author": "Խորխե Լուիս Բորխես",
+        "price": "9200 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "The Man in the High Castle",
+        "author": "Ֆիլիպ Կ. Դիկ",
+        "price": "6600 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Fahrenheit 451",
+        "author": "Ռեյ Բրեդբերի",
+        "price": "6100 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Ulysses",
+        "author": "Ջեյմս Ջոյս",
+        "price": "12500 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Brave New World",
+        "author": "Օլդոս Հաքսլի",
+        "price": "6300 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "The Stranger",
+        "author": "Ալբեր Կամյու",
+        "price": "5500 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "Waiting for Godot",
+        "author": "Սեմյուել Բեքեթ",
+        "price": "5800 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Steppenwolf",
+        "author": "Հերման Հեսսե",
+        "price": "6400 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    },
+    {
+        "title": "The Unbearable Lightness of Being",
+        "author": "Միլան Կունդերա",
+        "price": "6900 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "The Master and Margarita",
+        "author": "Միխայիլ Բուլգակով",
+        "price": "7200 դրամ",
+        "genre": "Ֆանտաստիկա",
+        "genre_id": 5
+    },
+    {
+        "title": "Lolita",
+        "author": "Վլադիմիր Նաբոկով",
+        "price": "6800 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "On the Road",
+        "author": "Ջեք Քերուեք",
+        "price": "6500 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "Ջ. Դ. Սելինջեր",
+        "price": "6100 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Beloved",
+        "author": "Տոնի Մորիսոն",
+        "price": "6700 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "Midnight's Children",
+        "author": "Սալման Ռուշդի",
+        "price": "8200 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Things Fall Apart",
+        "author": "Չինուա Աչեբե",
+        "price": "5900 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "The Sound and the Fury",
+        "author": "Ուիլյամ Ֆոլքներ",
+        "price": "6600 դրամ",
+        "genre": "Մոդեռնիզմ",
+        "genre_id": 1
+    },
+    {
+        "title": "Invisible Man",
+        "author": "Ռալֆ Էլիսոն",
+        "price": "6900 դրամ",
+        "genre": "Դրամա",
+        "genre_id": 4
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Հարպեր Լի",
+        "price": "6300 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "Lord of the Flies",
+        "author": "Վիլյամ Գոլդինգ",
+        "price": "6100 դրամ",
+        "genre": "Դասական",
+        "genre_id": 3
+    },
+    {
+        "title": "The Plague",
+        "author": "Ալբեր Կամյու",
+        "price": "6200 դրամ",
+        "genre": "Փիլիսոփայություն",
+        "genre_id": 2
+    }
+]

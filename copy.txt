@@ -1,0 +1,29 @@
+
+            @forelse($roles as $role)
+                <tr>
+                    <td>{{ $role->id }}</td>
+                    <td>{{ $role->name }}</td>
+                    <td>{{ $role->slug }}</td>
+
+                    <!-- Permissions column -->
+                    <td>
+                        @if($role->permissions->count())
+                            @foreach($role->permissions as $permission)
+                                <span class="badge bg-primary">
+                                    {{ $permission->name }}
+                                </span>
+                            @endforeach
+                        @else
+                            <span class="text-muted">No permissions</span>
+                        @endif
+                    </td>
+
+                    <td>{{ $role->created_at->format('Y-m-d') }}</td>
+                </tr>
+            @empty
+                <tr>
+                    <td colspan="5" class="text-center text-muted">
+                        No roles found
+                    </td>
+                </tr>
+            @endforelse

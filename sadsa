@@ -1,0 +1,13 @@
+ <div class="book-grid">
+            @foreach($books as $book)
+            <div class="book-card">
+                <div class="book-info">
+                    <h3>{{ $book->title }}</h3>
+                    <p class="author">Հեղինակ՝ <span>{{ $book->author }}</span></p>
+                    <p class="price">{{ number_format($book->price) }} ֏</p>
+                </div>
+                
+                <div class="book-actions">
+                </div>
+            </div>
+            @endforeach
