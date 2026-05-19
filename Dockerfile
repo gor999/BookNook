@@ -34,6 +34,7 @@ RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 
 # 6. Տեղադրում ենք Node-ի փաթեթները և անում ենք Build (Այժմ ոչինչ չի ջնջվի)
 RUN npm install
+RUN npm install tailwindcss @tailwindcss/vite
 RUN npm run build
 
 # Իրավունքները տալիս ենք Laravel-ին
