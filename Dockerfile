@@ -67,9 +67,21 @@ ENV DB_PASSWORD=$DB_PASSWORD
 ENV DB_CONNECTION=mysql
 
 RUN apt-get update && apt-get install -y nodejs npm
-
 RUN npm install --include=dev
+
+
+COPY package*.json ./
+
+COPY . .
+
+
+
+
+
 RUN npm run build
+
+
+
 
 
 EXPOSE 80
