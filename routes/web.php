@@ -91,3 +91,12 @@ Route::get('/test-genres', function () {
 });
 
 Route::get('/expanded_search', [BookController::class, 'expandedSearch'])->name('books.search');
+
+Route::get('/run-migrations', function () {
+    try {
+        Artisan::call('migrate --force');
+        return "migrations have been run successfully.";
+    } catch (\Exception $e) {
+        return "wrong: " . $e->getMessage();
+    }
+});
