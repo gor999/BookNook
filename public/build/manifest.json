@@ -1,0 +1,89 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-CjM1f9CR.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/authorpage.css": {
+    "file": "assets/authorpage-CB_hnOzU.css",
+    "name": "authorpage",
+    "names": [
+      "authorpage.css"
+    ],
+    "src": "resources/css/authorpage.css",
+    "isEntry": true
+  },
+  "resources/css/contact.css": {
+    "file": "assets/contact-CvnJWGAF.css",
+    "name": "contact",
+    "names": [
+      "contact.css"
+    ],
+    "src": "resources/css/contact.css",
+    "isEntry": true
+  },
+  "resources/css/edit.css": {
+    "file": "assets/edit-C9s_G5fz.css",
+    "name": "edit",
+    "names": [
+      "edit.css"
+    ],
+    "src": "resources/css/edit.css",
+    "isEntry": true
+  },
+  "resources/css/header.css": {
+    "file": "assets/header-gaV2gGoH.css",
+    "name": "header",
+    "names": [
+      "header.css"
+    ],
+    "src": "resources/css/header.css",
+    "isEntry": true
+  },
+  "resources/css/login.css": {
+    "file": "assets/login-CIOtP4sf.css",
+    "name": "login",
+    "names": [
+      "login.css"
+    ],
+    "src": "resources/css/login.css",
+    "isEntry": true
+  },
+  "resources/css/register.css": {
+    "file": "assets/register-CgL5Ckpv.css",
+    "name": "register",
+    "names": [
+      "register.css"
+    ],
+    "src": "resources/css/register.css",
+    "isEntry": true
+  },
+  "resources/css/rolepage.css": {
+    "file": "assets/rolepage-BDWvD_Dv.css",
+    "name": "rolepage",
+    "names": [
+      "rolepage.css"
+    ],
+    "src": "resources/css/rolepage.css",
+    "isEntry": true
+  },
+  "resources/css/shop.css": {
+    "file": "assets/shop-8C6DBb06.css",
+    "name": "shop",
+    "names": [
+      "shop.css"
+    ],
+    "src": "resources/css/shop.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BLa98ks6.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
