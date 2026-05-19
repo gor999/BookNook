@@ -52,6 +52,8 @@ RUN echo "server { \n\
     } \n\
 }" > /etc/nginx/sites-available/default
 
+ENV DB_CONNECTION=mysql
+
 EXPOSE 80
 
 CMD php-fpm -D && nginx -g "daemon off;"
