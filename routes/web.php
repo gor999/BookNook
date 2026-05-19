@@ -11,6 +11,7 @@ use App\Http\Controllers\LoginController;
 
 use App\Http\Controllers\TrashController;
 use App\Http\Controllers\PathController;
+use Illuminate\Support\Facades\Artisan;
 use App\Models\Post;
 use App\Models\User;
 use App\Models\Book;
@@ -20,6 +21,16 @@ use App\Models\Book;
 use Illuminate\Http\Request;
 use App\Models\Author;
 
+
+
+Route::get('/run-migrations', function () {
+    try {
+        Artisan::call('migrate', ['--force' => true]);
+        return 'migrations done succsefully <br><pre>' . Artisan::output() . '</pre>';
+    } catch (\Exception $e) {
+        return 'wrong՝ ' . $e->getMessage();
+    }
+})->withoutMiddleware([\App\Http\Middleware\VerifyCsrfToken::class, 'web']);
 
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/about', [PageController::class, 'about'])->name('about');
@@ -91,12 +102,3 @@ Route::get('/test-genres', function () {
 });
 
 Route::get('/expanded_search', [BookController::class, 'expandedSearch'])->name('books.search');
-
-Route::get('/run-migrations', function () {
-    try {
-        Artisan::call('migrate --force');
-        return "migrations have been run successfully.";
-    } catch (\Exception $e) {
-        return "wrong: " . $e->getMessage();
-    }
-});
