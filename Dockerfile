@@ -1,6 +1,6 @@
 FROM php:8.2-fpm
 
-# Տեղադրում ենք համակարգային փաթեթները և անհրաժեշտ գրադարանները (ներառյալ zip, bz2, թեթև zip-երի համար)
+# 1. Տեղադրում ենք համակարգային փաթեթները, Nginx-ը, Node.js-ը և NPM-ը միասին
 RUN apt-get update && apt-get install -y \
     git \
     curl \
@@ -10,25 +10,31 @@ RUN apt-get update && apt-get install -y \
     libzip-dev \
     zip \
     unzip \
-    nginx
+    nginx \
+    nodejs \
+    npm
 
 # Մաքրում ենք քեշը
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Տեղադրում ենք PHP ընդլայնումները (ավելացված է zip-ը, որը Composer-ին շատ է պետք)
+# 2. Տեղադրում ենք PHP ընդլայնումները
 RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip
 
-# Տեղադրում ենք Composer-ը
+# 3. Տեղադրում ենք Composer-ը
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 # Սահմանում ենք աշխատանքային թղթապանակը
 WORKDIR /var/www
 
-# Պատճենում ենք նախագծի ֆայլերը
+# 4. ՊԱՏՃԵՆՈՒՄ ԵՆՔ ՆԱԽԱԳԾԻ ԲՈԼՈՐ ՖԱՅԼԵՐԸ (Միայն մեկ անգամ)
 COPY . /var/www
 
-# Տեղադրում ենք կախվածությունները՝ անտեսելով հարթակի սահմանափակումները (--ignore-platform-reqs)
+# 5. Տեղադրում ենք PHP-ի կախվածությունները
 RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
+
+# 6. Տեղադրում ենք Node-ի փաթեթները և անում ենք Build (Այժմ ոչինչ չի ջնջվի)
+RUN npm install
+RUN npm run build
 
 # Իրավունքները տալիս ենք Laravel-ին
 RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache
@@ -52,6 +58,7 @@ RUN echo "server { \n\
     } \n\
 }" > /etc/nginx/sites-available/default
 
+# Տվյալների բազայի ENV-ները
 ENV DB_CONNECTION=mysql
 ARG DB_HOST=mysql-3619758c-gor-6b78.j.aivencloud.com
 ARG DB_PORT=19820
@@ -64,25 +71,6 @@ ENV DB_PORT=$DB_PORT
 ENV DB_DATABASE=$DB_DATABASE
 ENV DB_USERNAME=$DB_USERNAME
 ENV DB_PASSWORD=$DB_PASSWORD
-ENV DB_CONNECTION=mysql
-
-RUN apt-get update && apt-get install -y nodejs npm
-RUN npm install --include=dev
-
-
-COPY package*.json ./
-
-COPY . .
-
-
-
-
-
-RUN npm run build
-
-
-
-
 
 EXPOSE 80
 
