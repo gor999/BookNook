@@ -46,10 +46,20 @@ return [
         'mysql' => [
     'driver' => 'mysql',
     'url' => env('DB_URL'),
-    'host' => env('DB_HOST', 'mysql-3619758c-gor-6b78.j.aivencloud.com'), // Տեղադրեք ձեր Aiven Host-ը
-    'port' => env('DB_PORT', '19820'), // Տեղադրեք ձեր Aiven Port-ը
-    'database' => env('DB_DATABASE', 'defaultdb'),
-    'username' => env('DB_USERNAME', 'avnadmin'),
+    'host' => 'mysql-3619758c-gor-6b78.j.aivencloud.com',
+    'port' => 19820,
+    'database' => 'defaultdb',
+    'username' => 'avnadmin',
+    'password' => 'AVNS_P0eF0a1wIht' . 'LeyoBJXZ', 
+    'charset' => 'utf8mb4',
+    'collation' => 'utf8mb4_unicode_ci',
+    'prefix' => '',
+    'prefix_indexes' => true,
+    'strict' => true,
+    'engine' => null,
+    'options' => extension_loaded('pdo_mysql') ? array_filter([
+        PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+    ]) : [],
 ],
 
         'mariadb' => [
