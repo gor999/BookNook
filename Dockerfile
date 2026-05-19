@@ -69,7 +69,7 @@ ENV DB_CONNECTION=mysql
 RUN apt-get update && apt-get install -y nodejs npm
 
 RUN npm install
-RUN npm run dev
+RUN npm run build
 
 
 EXPOSE 80
