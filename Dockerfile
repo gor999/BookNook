@@ -27,6 +27,11 @@ COPY . /var/www
 RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 
 RUN npm install
+
+
+RUN npm install -D tailwindcss postcss autoprefixer @tailwindcss/vite
+
+RUN npm ci
 RUN npm run build
 
 RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache
