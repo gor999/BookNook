@@ -1,6 +1,5 @@
 FROM php:8.2-fpm
 
-# 1. Տեղադրում ենք համակարգային փաթեթները, Nginx-ը, Node.js-ը և NPM-ը միասին
 RUN apt-get update && apt-get install -y \
     git \
     curl \
@@ -10,37 +9,28 @@ RUN apt-get update && apt-get install -y \
     libzip-dev \
     zip \
     unzip \
-    nginx \
-    nodejs \
-    npm
+    nginx
 
-# Մաքրում ենք քեշը
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# 2. Տեղադրում ենք PHP ընդլայնումները
+RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - \
+    && apt-get install -y nodejs
+
 RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip
 
-# 3. Տեղադրում ենք Composer-ը
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Սահմանում ենք աշխատանքային թղթապանակը
 WORKDIR /var/www
 
-# 4. ՊԱՏՃԵՆՈՒՄ ԵՆՔ ՆԱԽԱԳԾԻ ԲՈԼՈՐ ՖԱՅԼԵՐԸ (Միայն մեկ անգամ)
 COPY . /var/www
 
-# 5. Տեղադրում ենք PHP-ի կախվածությունները
 RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 
-# 6. Տեղադրում ենք Node-ի փաթեթները և անում ենք Build (Այժմ ոչինչ չի ջնջվի)
 RUN npm install
-RUN npm install tailwindcss @tailwindcss/vite
 RUN npm run build
 
-# Իրավունքները տալիս ենք Laravel-ին
 RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache
 
-# Nginx-ի կարգավորում
 RUN echo "server { \n\
     listen 80; \n\
     index index.php index.html; \n\
@@ -59,7 +49,6 @@ RUN echo "server { \n\
     } \n\
 }" > /etc/nginx/sites-available/default
 
-# Տվյալների բազայի ENV-ները
 ENV DB_CONNECTION=mysql
 ARG DB_HOST=mysql-3619758c-gor-6b78.j.aivencloud.com
 ARG DB_PORT=19820
