@@ -66,6 +66,12 @@ ENV DB_USERNAME=$DB_USERNAME
 ENV DB_PASSWORD=$DB_PASSWORD
 ENV DB_CONNECTION=mysql
 
+RUN apt-get update && apt-get install -y nodejs npm
+
+RUN npm install
+RUN npm run dev
+
+
 EXPOSE 80
 
 CMD php-fpm -D && nginx -g "daemon off;"
