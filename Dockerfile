@@ -1,5 +1,6 @@
 FROM php:8.2-fpm
 
+# Համակարգային փաթեթներ
 RUN apt-get update && apt-get install -y \
     git \
     curl \
@@ -13,9 +14,11 @@ RUN apt-get update && apt-get install -y \
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
+# Node.js 22 տեղադրում
 RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - \
     && apt-get install -y nodejs
 
+# PHP ընդլայնումներ
 RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd zip
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
@@ -24,18 +27,21 @@ WORKDIR /var/www
 
 COPY . /var/www
 
+# PHP կախվածություններ
 RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 
+# Tailwind-ի և Vite-ի ճիշտ տեղադրում
+# Օգտագործում ենք NODE_ENV=development build-ի ժամանակ, որպեսզի 
+# devDependencies-ները (Tailwind) հասանելի լինեն
+ENV NODE_ENV=development
 RUN npm install
-
-
-RUN npm install -D tailwindcss postcss autoprefixer @tailwindcss/vite
-
-RUN npm ci
 RUN npm run build
+ENV NODE_ENV=production
 
+# Իրավունքներ
 RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache
 
+# Nginx կոնֆիգուրացիա
 RUN echo "server { \n\
     listen 80; \n\
     index index.php index.html; \n\
@@ -54,6 +60,7 @@ RUN echo "server { \n\
     } \n\
 }" > /etc/nginx/sites-available/default
 
+# Տվյալների բազայի ENV-ներ
 ENV DB_CONNECTION=mysql
 ARG DB_HOST=mysql-3619758c-gor-6b78.j.aivencloud.com
 ARG DB_PORT=19820
